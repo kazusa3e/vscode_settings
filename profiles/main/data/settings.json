@@ -1,0 +1,133 @@
+{
+    // ==================== Appearances ==================== 
+    "editor.cursorBlinking": "solid",
+    "workbench.colorTheme": "Edge Dark",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+    "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [ "comment", ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "workbench.editor.showTabs": "none",
+
+
+    // ==================== Features ==================== 
+    "workbench.editor.enablePreview": false,
+
+    // ==================== Ext: Sync Settings ==================== 
+    "syncSettings.resources": [
+        "extensions",
+        "keybindings",
+        "settings",
+        "snippets",
+        // "uiState"
+    ],
+    
+    // ==================== Ext: Vim ==================== 
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.showMarksInGutter": true,
+    "vim.showmodename": false,
+    "vim.smartRelativeLine": true,
+    "vim.statusBarColorControl": true,
+    
+    "vim.leader": "<space>",
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    
+    "vim.easymotion": true,
+    
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": [ "j" ], "after": [ "g", "j" ] , "slient": true },
+        { "before": [ "k" ], "after": [ "g", "k" ] , "slient": true },
+        { "before": [ "o" ], "after": [ "o", "<esc>" ] , "slient": true },
+        { "before": [ "X" ], "commands": [ ":bd" ], "slient": true },
+        { "before": [ "<leader>" ,"x" ], "commands": [ "workbench.action.closeEditorsInGroup" ], "slient": true },
+        { "before": [ "<c-p>" ], "commands": [ "workbench.action.quickOpen" ] , "slient": true },
+        { "before": [ "<leader>", "z" ], "after": [ "`", "." ] , "slient": true },
+        { "before": [ "<leader>", "s" ], "commands": [ ":ls" ] , "slient": true },
+        
+        { "before": [ "<c-h>" ], "commands": [ "workbench.action.focusLeftGroup" ] , "slient": true },
+        { "before": [ "<c-l>" ], "commands": [ "workbench.action.focusRightGroup" ] , "slient": true },
+        { "before": [ "<c-j>" ], "commands": [ "workbench.action.focusBelowGroup" ] , "slient": true },
+        { "before": [ "<c-k>" ], "commands": [ "workbench.action.focusAboveGroup" ] , "slient": true },
+        { "before": [ "<leader>", "|" ], "commands": [ "workbench.action.spilitEditorRight" ] , "slient": true },
+        { "before": [ "<leader>", "\\" ], "commands": [ "workbench.action.spilitEditorDown" ] , "slient": true },
+
+        { "before": [ "q", "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
+        { "before": [ "]", "d" ], "commands": [ "editor.action.marker.next" ] , "slient": true },
+        { "before": [ "[", "d" ], "commands": [ "editor.action.marker.prev" ] , "slient": true },
+
+        // git special
+        { "before": [ "<leader>", "g", "r" ], "commands": [ "git.revertSelectedRanges" ] , "slient": true },
+        { "before": [ "<leader>", "g", "d" ], "commands": [ "editor.action.dirtydiff.next" ] , "slient": true },
+        { "before": [ "]", "g" ], "commands": [ "workbench.action.editor.nextChange" ] , "slient": true },
+        { "before": [ "[", "g" ], "commands": [ "workbench.action.editor.previousChange" ] , "slient": true },
+        
+        // lsp special
+        { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "slient": true },
+        { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "slient": true },
+        { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "slient": true },
+        { "before": [ "g", "r" ], "commands": [ "edotor.action.goToReferences" ] , "slient": true },
+        { "before": [ "g", "R" ], "commands": [ "edotor.action.rename" ] , "slient": true },
+        { "before": [ "g", "." ], "commands": [ "edotor.action.quickFix" ] , "slient": true },
+
+        // debug special
+        // TODO: consider add `when in debug mode` condition?
+        // { "before": [ "<c-w>" ], "commands": [ "workbench.action.debug.stepOver" ] , "slient": true },
+        // { "before": [ "<c-s>" ], "commands": [ "workbench.action.debug.stepInto" ] , "slient": true },
+        // { "before": [ "<c-c>" ], "commands": [ "editor.debug.action.runToCursor" ] , "slient": true },
+
+        // extensions
+        { "before": [ "<leader>", "m" ], "commands": [ "bookmarks.toggle" ] , "slient": true },
+        { "before": [ "]", "t" ], "commands": [ "todo-tree.goToNext" ] , "slient": true },
+        { "before": [ "[", "t" ], "commands": [ "todo-tree.goToPrevious" ] , "slient": true },
+        { "before": [ "]", "q" ], "commands": [ "bookmarks.jumpToPrevious" ] , "slient": true },
+        { "before": [ "[", "q" ], "commands": [ "bookmarks.jumpToNext" ] , "slient": true },
+
+
+    ],
+    "vim.normalModeKeyBindings": [
+        { "before": [ "s" ], "after": [ "y", "s" ] , "slient": true },
+        { "before": [ "f" ], "after": [ "<leader>", "<leader>", "s" ] , "slient": true },
+    ],
+
+    "vim.visualModeKeyBindingsNonRecursive": [
+        { "before": [ "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
+        { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "slient": true },
+    ],
+
+    "vim.handleKeys": {},
+
+    // ==================== Ext: Bookmarks ==================== 
+    "bookmarks.showCommandsInContextMenu": false,
+
+    // ==================== Ext: Clangd ==================== 
+    "clangd.arguments": [
+        "--background-index",
+        "--clang-tidy"
+    ],
+
+    // ==================== Ext: Error Lens ==================== 
+    "errorLens.disableLineComments": {
+        "clangd": "// NOLINT"
+    },
+    "errorLens.followCursor": "closestProblem",
+    "errorLens.gutterIconSet": "circle",
+    "errorLens.gutterIconsEnabled": true,
+}
