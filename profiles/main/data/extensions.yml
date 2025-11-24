@@ -16,6 +16,8 @@ enabled:
     uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
   - id: ms-vscode.remote-explorer
     uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
+  - id: rust-lang.rust-analyzer
+    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: sainnhe.edge
     uuid: 5af4beee-fcb2-408b-ac4c-e88f0307cebc
   - id: usernamehw.errorlens
