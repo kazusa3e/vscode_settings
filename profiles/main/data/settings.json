@@ -4,7 +4,8 @@
     "workbench.colorTheme": "Edge Dark",
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
     // #if(os="windows")
-    // "editor.fontSize": 10,
+    // "editor.fontSize": 12,
+    // "terminal.integrated.fontSize": 12,
     // #endif
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -20,9 +21,14 @@
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
 
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.renderSideBySide": false,
 
     // ==================== Features ==================== 
     "workbench.editor.enablePreview": false,
+
+    "debug.showVariableTypes": true,
+    "debug.inlineValues": "auto",
 
     // ==================== Ext: Sync Settings ==================== 
     "syncSettings.resources": [
@@ -64,8 +70,8 @@
         { "before": [ "<c-l>" ], "commands": [ "workbench.action.focusRightGroup" ] , "slient": true },
         { "before": [ "<c-j>" ], "commands": [ "workbench.action.focusBelowGroup" ] , "slient": true },
         { "before": [ "<c-k>" ], "commands": [ "workbench.action.focusAboveGroup" ] , "slient": true },
-        { "before": [ "<leader>", "|" ], "commands": [ "workbench.action.spilitEditorRight" ] , "slient": true },
-        { "before": [ "<leader>", "\\" ], "commands": [ "workbench.action.spilitEditorDown" ] , "slient": true },
+        { "before": [ "<leader>", "|" ], "commands": [ "workbench.action.splitEditorRight" ] , "slient": true },
+        { "before": [ "<leader>", "\\" ], "commands": [ "workbench.action.splitEditorDown" ] , "slient": true },
 
         { "before": [ "q", "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
         { "before": [ "]", "d" ], "commands": [ "editor.action.marker.next" ] , "slient": true },
@@ -81,9 +87,9 @@
         { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "slient": true },
         { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "slient": true },
         { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "slient": true },
-        { "before": [ "g", "r" ], "commands": [ "edotor.action.goToReferences" ] , "slient": true },
-        { "before": [ "g", "R" ], "commands": [ "edotor.action.rename" ] , "slient": true },
-        { "before": [ "g", "." ], "commands": [ "edotor.action.quickFix" ] , "slient": true },
+        { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] , "slient": true },
+        { "before": [ "g", "R" ], "commands": [ "editor.action.rename" ] , "slient": true },
+        { "before": [ "g", "." ], "commands": [ "editor.action.quickFix" ] , "slient": true },
 
         // debug special
         // TODO: consider add `when in debug mode` condition?
