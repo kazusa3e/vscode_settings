@@ -1,7 +1,13 @@
-disabled: []
+disabled:
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
 enabled:
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: Gerrnperl.outline-map
+    uuid: 926f4730-3fd1-4d09-be10-56e7402560c5
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: ms-vscode-remote.remote-ssh
@@ -14,7 +20,5 @@ enabled:
     uuid: 5af4beee-fcb2-408b-ac4c-e88f0307cebc
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
-  - id: vscodevim.vim
-    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

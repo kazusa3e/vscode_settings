@@ -3,13 +3,16 @@
     "editor.cursorBlinking": "solid",
     "workbench.colorTheme": "Edge Dark",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000",
         "statusBar.foreground": "#ffffff",
         "statusBar.debuggingForeground": "#ffffff"
     },
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
+    // #if(os="windows")
+    // "editor.fontSize": 10,
+    // #endif
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -20,7 +23,9 @@
             }
         ]
     },
-    "workbench.editor.showTabs": "none",
+    "workbench.editor.showTabs": "single",
+    "chat.commandCenter.enabled": false,
+    "window.commandCenter": false,
 
 
     // ==================== Features ==================== 
@@ -130,4 +135,12 @@
     "errorLens.followCursor": "closestProblem",
     "errorLens.gutterIconSet": "circle",
     "errorLens.gutterIconsEnabled": true,
+
+    // ==================== Ext: Outline Map  ==================== 
+    "outline-map.customCSS": "* { font-size: 12px !important; }",
+
+
+    // ==================== Ext: Git Lens  ==================== 
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.virtualRepositories.enabled": false,
 }
