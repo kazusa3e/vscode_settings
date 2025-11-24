@@ -2,13 +2,6 @@
     // ==================== Appearances ==================== 
     "editor.cursorBlinking": "solid",
     "workbench.colorTheme": "Edge Dark",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#5f0000",
-        "statusBar.noFolderBackground": "#5f0000",
-        "statusBar.debuggingBackground": "#5f0000",
-        "statusBar.foreground": "#ffffff",
-        "statusBar.debuggingForeground": "#ffffff"
-    },
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
     // #if(os="windows")
     // "editor.fontSize": 10,
@@ -45,7 +38,7 @@
     "vim.showMarksInGutter": true,
     "vim.showmodename": false,
     "vim.smartRelativeLine": true,
-    "vim.statusBarColorControl": true,
+    "vim.statusBarColorControl": false,
     
     "vim.leader": "<space>",
     "vim.foldfix": true,

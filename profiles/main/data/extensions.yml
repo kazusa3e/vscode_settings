@@ -1,7 +1,7 @@
-disabled:
+disabled: []
+enabled:
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
-enabled:
   - id: alefragnani.Bookmarks
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: eamodio.gitlens
