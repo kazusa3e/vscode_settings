@@ -63,7 +63,7 @@
         { "before": [ "X" ], "commands": [ ":bd" ], "slient": true },
         { "before": [ "<leader>" ,"x" ], "commands": [ "workbench.action.closeEditorsInGroup" ], "slient": true },
         { "before": [ "<c-p>" ], "commands": [ "workbench.action.quickOpen" ] , "slient": true },
-        { "before": [ "<leader>", "z" ], "after": [ "`", "." ] , "slient": true },
+        { "before": [ "<leader>", "a" ], "after": [ "`", "." ] , "slient": true },
         { "before": [ "<leader>", "s" ], "commands": [ ":ls" ] , "slient": true },
         
         { "before": [ "<c-h>" ], "commands": [ "workbench.action.focusLeftGroup" ] , "slient": true },
