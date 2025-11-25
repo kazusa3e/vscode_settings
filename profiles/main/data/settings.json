@@ -72,6 +72,7 @@
         { "before": [ "<c-k>" ], "commands": [ "workbench.action.focusAboveGroup" ] , "slient": true },
         { "before": [ "<leader>", "|" ], "commands": [ "workbench.action.splitEditorRight" ] , "slient": true },
         { "before": [ "<leader>", "\\" ], "commands": [ "workbench.action.splitEditorDown" ] , "slient": true },
+        { "before": [ "<leader>", "z" ], "commands": [ "workbench.action.toggleMaximizeEditorGroup" ] , "slient": true },
 
         { "before": [ "q", "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
         { "before": [ "]", "d" ], "commands": [ "editor.action.marker.next" ] , "slient": true },
@@ -90,6 +91,9 @@
         { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] , "slient": true },
         { "before": [ "g", "R" ], "commands": [ "editor.action.rename" ] , "slient": true },
         { "before": [ "g", "." ], "commands": [ "editor.action.quickFix" ] , "slient": true },
+
+        { "before": [ "g", "q" ], "commands": [ "references-view.findReferences" ] , "slient": true },
+        { "before": [ "g", "w" ], "commands": [ "references-view.showCallHierarchy" ] , "slient": true },
 
         // debug special
         // TODO: consider add `when in debug mode` condition?
