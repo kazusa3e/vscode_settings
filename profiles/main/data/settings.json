@@ -10,7 +10,7 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-                "scope": [ "comment", ],
+                "scope": [ "comment" ],
                 "settings": {
                     "fontStyle": "bold"
                 }
@@ -35,7 +35,7 @@
         "extensions",
         "keybindings",
         "settings",
-        "snippets",
+        "snippets"
         // "uiState"
     ],
     
@@ -106,18 +106,18 @@
         { "before": [ "]", "t" ], "commands": [ "todo-tree.goToNext" ] , "slient": true },
         { "before": [ "[", "t" ], "commands": [ "todo-tree.goToPrevious" ] , "slient": true },
         { "before": [ "]", "q" ], "commands": [ "bookmarks.jumpToPrevious" ] , "slient": true },
-        { "before": [ "[", "q" ], "commands": [ "bookmarks.jumpToNext" ] , "slient": true },
+        { "before": [ "[", "q" ], "commands": [ "bookmarks.jumpToNext" ] , "slient": true }
 
 
     ],
     "vim.normalModeKeyBindings": [
         { "before": [ "s" ], "after": [ "y", "s" ] , "slient": true },
-        { "before": [ "f" ], "after": [ "<leader>", "<leader>", "s" ] , "slient": true },
+        { "before": [ "f" ], "after": [ "<leader>", "<leader>", "s" ] , "slient": true }
     ],
 
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": [ "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
-        { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "slient": true },
+        { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "slient": true }
     ],
 
     "vim.handleKeys": {},
@@ -145,5 +145,5 @@
 
     // ==================== Ext: Git Lens  ==================== 
     "gitlens.plusFeatures.enabled": false,
-    "gitlens.virtualRepositories.enabled": false,
+    "gitlens.virtualRepositories.enabled": false
 }
