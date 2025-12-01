@@ -19,6 +19,10 @@
             }
         ]
     },
+    "workbench.colorCustomizations": {
+        "editor.wordHighlightBackground": "#8c00ff60",
+        "editor.wordHighlightStrongBackground": "#8c00ff60"
+    },
     "workbench.editor.showTabs": "single",
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
@@ -87,6 +91,7 @@
         { "before": [ "[", "g" ], "commands": [ "workbench.action.editor.previousChange" ] , "slient": true },
         
         // lsp special
+        { "before": [ "g", "D" ], "commands": [ "editor.action.revealDefinitionAside" ] , "slient": true },
         { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "slient": true },
         { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "slient": true },
         { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "slient": true },
