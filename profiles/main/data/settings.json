@@ -1,5 +1,5 @@
 {
-    // ==================== Appearances ==================== 
+    // ==================== Appearances ====================
     "editor.cursorBlinking": "solid",
     "workbench.colorTheme": "Edge Dark",
     "workbench.iconTheme": "material-icon-theme",
@@ -32,13 +32,13 @@
     "diffEditor.hideUnchangedRegions.enabled": true,
     "diffEditor.renderSideBySide": false,
 
-    // ==================== Features ==================== 
+    // ==================== Features ====================
     "workbench.editor.enablePreview": false,
 
     "debug.showVariableTypes": true,
     "debug.inlineValues": "auto",
 
-    // ==================== Ext: Sync Settings ==================== 
+    // ==================== Ext: Sync Settings ====================
     "syncSettings.resources": [
         "extensions",
         "keybindings",
@@ -46,14 +46,14 @@
         "snippets"
         // "uiState"
     ],
-    
-    // ==================== Ext: Vim ==================== 
+
+    // ==================== Ext: Vim ====================
     "vim.cursorStylePerMode.insert": "block",
     "vim.showMarksInGutter": true,
     "vim.showmodename": false,
     "vim.smartRelativeLine": true,
     "vim.statusBarColorControl": false,
-    
+
     "vim.leader": "<space>",
     "vim.foldfix": true,
     "vim.hlsearch": true,
@@ -61,9 +61,9 @@
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
-    
+
     "vim.easymotion": true,
-    
+
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": [ "j" ], "after": [ "g", "j" ] , "slient": true },
         { "before": [ "k" ], "after": [ "g", "k" ] , "slient": true },
@@ -73,7 +73,7 @@
         { "before": [ "<c-p>" ], "commands": [ "workbench.action.quickOpen" ] , "slient": true },
         { "before": [ "<leader>", "a" ], "after": [ "`", "." ] , "slient": true },
         { "before": [ "<leader>", "s" ], "commands": [ ":ls" ] , "slient": true },
-        
+
         { "before": [ "<c-h>" ], "commands": [ "workbench.action.focusLeftGroup" ] , "slient": true },
         { "before": [ "<c-l>" ], "commands": [ "workbench.action.focusRightGroup" ] , "slient": true },
         { "before": [ "<c-j>" ], "commands": [ "workbench.action.focusBelowGroup" ] , "slient": true },
@@ -91,7 +91,7 @@
         { "before": [ "<leader>", "g", "d" ], "commands": [ "editor.action.dirtydiff.next" ] , "slient": true },
         { "before": [ "]", "g" ], "commands": [ "workbench.action.editor.nextChange" ] , "slient": true },
         { "before": [ "[", "g" ], "commands": [ "workbench.action.editor.previousChange" ] , "slient": true },
-        
+
         // lsp special
         { "before": [ "g", "D" ], "commands": [ "editor.action.revealDefinitionAside" ] , "slient": true },
         { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "slient": true },
@@ -131,16 +131,16 @@
 
     "vim.handleKeys": {},
 
-    // ==================== Ext: Bookmarks ==================== 
+    // ==================== Ext: Bookmarks ====================
     "bookmarks.showCommandsInContextMenu": false,
 
-    // ==================== Ext: Clangd ==================== 
+    // ==================== Ext: Clangd ====================
     "clangd.arguments": [
         "--background-index",
         "--clang-tidy"
     ],
 
-    // ==================== Ext: Error Lens ==================== 
+    // ==================== Ext: Error Lens ====================
     "errorLens.disableLineComments": {
         "clangd": "// NOLINT"
     },
@@ -148,11 +148,11 @@
     "errorLens.gutterIconSet": "circle",
     "errorLens.gutterIconsEnabled": true,
 
-    // ==================== Ext: Outline Map  ==================== 
+    // ==================== Ext: Outline Map  ====================
     "outline-map.customCSS": "* { font-size: 12px !important; }",
 
 
-    // ==================== Ext: Git Lens  ==================== 
+    // ==================== Ext: Git Lens  ====================
     "gitlens.plusFeatures.enabled": false,
     "gitlens.virtualRepositories.enabled": false
 }
