@@ -5,6 +5,8 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 16,
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontLigatures.enabled": true,
     // #if(os="windows")
     // "editor.fontSize": 12,
     // "terminal.integrated.fontSize": 12,
