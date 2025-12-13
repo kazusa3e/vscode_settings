@@ -35,6 +35,8 @@
     // ==================== Features ====================
     "workbench.editor.enablePreview": false,
 
+    "terminal.integrated.suggest.enabled": false,
+
     "debug.showVariableTypes": true,
     "debug.inlineValues": "auto",
 
