@@ -163,5 +163,19 @@
     "gitlens.statusBar.enabled": false,
 
     // ==================== Ext: Yaml  ====================
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+
+    // ==================== Ext: Todo Tree  ====================
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.tree.expanded": true,
+    "todo-tree.tree.groupedBySubTag": true,
+    "todo-tree.tree.groupedByTag": true,
+    "todo-tree.tree.flat": true,
+    "todo-tree.tree.hideIconsWhenGroupedByTag": true,
+    "todo-tree.tree.hideTreeWhenEmpty": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.buttons.groupBySubTag": true,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\(kazusa\\)",
+    "todo-tree.regex.regexCaseSensitive": false
 }

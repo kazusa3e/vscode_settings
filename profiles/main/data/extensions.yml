@@ -32,3 +32,5 @@ enabled:
     uuid: 6ad45f5a-09ec-44e5-b363-867ddc1ec674
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: Gruntfuggly.todo-tree
+    uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
