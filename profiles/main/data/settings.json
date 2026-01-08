@@ -31,6 +31,7 @@
 
     "diffEditor.hideUnchangedRegions.enabled": true,
     "diffEditor.renderSideBySide": false,
+    "diffEditor.ignoreTrimWhitespace": true,
 
     // ==================== Features ====================
     "workbench.editor.enablePreview": false,
@@ -159,5 +160,8 @@
     "gitlens.plusFeatures.enabled": false,
     "gitlens.virtualRepositories.enabled": false,
     "gitlens.defaultGravatarsStyle": "robohash",
-    "gitlens.statusBar.enabled": false
+    "gitlens.statusBar.enabled": false,
+
+    // ==================== Ext: Yaml  ====================
+    "redhat.telemetry.enabled": false
 }
