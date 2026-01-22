@@ -1,4 +1,5 @@
 {
+    "$schema": "vscode://schemas/settings/user",
     // ==================== Appearances ====================
     "editor.cursorBlinking": "solid",
     "workbench.colorTheme": "Edge Dark",
@@ -10,6 +11,7 @@
     // #if(os="windows")
     // "editor.fontSize": 12,
     // "terminal.integrated.fontSize": 12,
+    // "debug.console.fontSize": 12,
     // #endif
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -32,11 +34,14 @@
     "diffEditor.hideUnchangedRegions.enabled": true,
     "diffEditor.renderSideBySide": false,
     "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.experimental.showMoves": true,
 
     // ==================== Features ====================
     "workbench.editor.enablePreview": false,
 
     "terminal.integrated.suggest.enabled": false,
+
+    "git.autofetch": true,
 
     "debug.showVariableTypes": true,
     "debug.inlineValues": "auto",
@@ -131,6 +136,10 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": [ "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
         { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "slient": true }
+    ],
+
+    "vim.visualModeKeyBindings": [
+        { "before": [ "s" ], "after": [ "S" ] , "slient": true },
     ],
 
     "vim.handleKeys": {},
