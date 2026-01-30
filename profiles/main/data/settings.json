@@ -203,5 +203,10 @@
     "todo-tree.tree.showCountsInTree": true,
     "todo-tree.tree.buttons.groupBySubTag": true,
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\(kazusa\\)",
-    "todo-tree.regex.regexCaseSensitive": false
+    "todo-tree.regex.regexCaseSensitive": false,
+
+    // ==================== Ext: Rust Analyzer  ====================
+    "rust-analyzer.completion.fullFunctionSignatures.enable": true,
+    "rust-analyzer.showDependenciesExplorer": false,
+    "rust-analyzer.testExplorer": false
 }
