@@ -23,6 +23,22 @@
             }
         ]
     },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable:rust": {
+                "fontStyle": "italic underline"
+            },
+
+            // HACK(kazusa): highlight mutable variables in cpp
+            "variable:cpp": {
+                "fontStyle": "italic underline"
+            },
+            "variable.readonly:cpp": {
+                "fontStyle": ""
+            }
+        }
+    },
     "workbench.colorCustomizations": {
         "editor.wordHighlightBackground": "#8c00ff60",
         "editor.wordHighlightStrongBackground": "#8c00ff60"
