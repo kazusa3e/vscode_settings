@@ -208,5 +208,8 @@
     // ==================== Ext: Rust Analyzer  ====================
     "rust-analyzer.completion.fullFunctionSignatures.enable": true,
     "rust-analyzer.showDependenciesExplorer": false,
-    "rust-analyzer.testExplorer": false
+    "rust-analyzer.testExplorer": false,
+
+    // ==================== Ext: Rust Analyzer  ====================
+    "trailing-spaces.trimOnSave": true
 }
