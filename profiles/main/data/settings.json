@@ -211,5 +211,8 @@
     "rust-analyzer.testExplorer": false,
 
     // ==================== Ext: Rust Analyzer  ====================
-    "trailing-spaces.trimOnSave": true
+    "trailing-spaces.trimOnSave": true,
+
+    // ==================== Ext: Cmake Tools  ====================
+    "cmake.configureOnOpen": false
 }
