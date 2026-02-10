@@ -40,3 +40,5 @@ enabled:
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
   - id: mutantdino.resourcemonitor
     uuid: 6efd3abb-3c6e-49c8-b8ce-6df58982255b
+  - id: golang.go
+    uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da

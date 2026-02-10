@@ -210,7 +210,7 @@
     "rust-analyzer.showDependenciesExplorer": false,
     "rust-analyzer.testExplorer": false,
 
-    // ==================== Ext: Rust Analyzer  ====================
+    // ==================== Ext: Trailing Spaces  ====================
     "trailing-spaces.trimOnSave": true,
 
     // ==================== Ext: Cmake Tools  ====================
