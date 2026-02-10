@@ -214,5 +214,9 @@
     "trailing-spaces.trimOnSave": true,
 
     // ==================== Ext: Cmake Tools  ====================
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+
+    // ==================== Ext: Resource Monitor  ====================
+    "resmon.show.battery": false,
+    "resmon.show.cpufreq": false
 }

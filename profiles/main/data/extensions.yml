@@ -38,3 +38,5 @@ enabled:
     uuid: 68ef4789-1f8c-4d80-b929-cfb718979aa2
   - id: ms-vscode.cmake-tools
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
+  - id: mutantdino.resourcemonitor
+    uuid: 6efd3abb-3c6e-49c8-b8ce-6df58982255b
