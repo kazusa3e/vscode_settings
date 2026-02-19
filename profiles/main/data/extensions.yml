@@ -42,3 +42,5 @@ enabled:
     uuid: 6efd3abb-3c6e-49c8-b8ce-6df58982255b
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
