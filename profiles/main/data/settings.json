@@ -218,5 +218,19 @@
 
     // ==================== Ext: Resource Monitor  ====================
     "resmon.show.battery": false,
-    "resmon.show.cpufreq": false
+    "resmon.show.cpufreq": false,
+
+    // ==================== Ext: Go ====================
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.ignoredError": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    }
+
 }
