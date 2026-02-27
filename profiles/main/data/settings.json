@@ -53,6 +53,7 @@
     "diffEditor.experimental.showMoves": true,
 
     // ==================== Features ====================
+    "files.insertFinalNewline": true,
     "workbench.editor.enablePreview": false,
 
     "terminal.integrated.suggest.enabled": false,
