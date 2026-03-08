@@ -44,3 +44,5 @@ enabled:
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
+  - id: wenbopan.vscode-terminal-osc-notifier
+    uuid: 593d3250-5ce6-4574-9f78-f98892e4cc96
