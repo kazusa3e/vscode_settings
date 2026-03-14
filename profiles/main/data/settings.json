@@ -53,6 +53,9 @@
     "diffEditor.experimental.showMoves": true,
 
     // ==================== Features ====================
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
     "files.insertFinalNewline": true,
     "workbench.editor.enablePreview": false,
 
