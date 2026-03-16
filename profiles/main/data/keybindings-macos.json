@@ -17,5 +17,30 @@
         "key": "ctrl+`",
         "command": "-workbench.action.terminal.toggleTerminal",
         "when": "terminal.active"
+    },
+    {
+        "key": "c",
+        "command": "workbench.action.debug.continue",
+        "when": "editorTextFocus && vim.mode == 'Normal' && inDebugMode"
+    },
+    {
+        "key": "w",
+        "command": "workbench.action.debug.stepOver",
+        "when": "editorTextFocus && vim.mode == 'Normal' && inDebugMode"
+    },
+    {
+        "key": "f",
+        "command": "workbench.action.debug.stepOut",
+        "when": "editorTextFocus && vim.mode == 'Normal' && inDebugMode"
+    },
+    {
+        "key": "s",
+        "command": "workbench.action.debug.stepInto",
+        "when": "editorTextFocus && vim.mode == 'Normal' && inDebugMode"
+    },
+    {
+        "key": "a",
+        "command": "editor.debug.action.runToCursor",
+        "when": "editorTextFocus && vim.mode == 'Normal' && inDebugMode"
     }
 ]
