@@ -207,10 +207,10 @@
     "todo-tree.tree.showCountsInTree": true,
     "todo-tree.tree.buttons.groupBySubTag": true,
     // "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\(kazusa\\)",
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\s*(?:\\(.+?\\))?\\:\\s?(.+)?",
+    "todo-tree.regex.regex": "^[ \\t]*(//|#|<!--|;|/\\*)\\s*($TAGS)\\s*(?:\\(.+?\\))?\\:\\s?(.+)?",
     "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.highlights.defaultHighlight": {
-        "type": "capture-groups:3"
+        "type": "capture-groups:2"
     },
     "todo-tree.general.tags": [
         "ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME",
