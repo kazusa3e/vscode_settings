@@ -206,8 +206,30 @@
     "todo-tree.tree.hideTreeWhenEmpty": true,
     "todo-tree.tree.showCountsInTree": true,
     "todo-tree.tree.buttons.groupBySubTag": true,
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\(kazusa\\)",
+    // "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\(kazusa\\)",
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)\\s*(?:\\(.+?\\))?\\:\\s?(.+)?",
     "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "capture-groups:3"
+    },
+    "todo-tree.general.tags": [
+        "ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME",
+        "WRN", "WARN", "WARNING", "NOTICE", "NOTE",
+        "INF", "INFO", "PREF", "OPTIM",
+        "HIT", "HINT", "DBG", "TODO"
+    ],
+    "todo-tree.general.tagGroups": {
+        "ERR": ["ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME"],
+        "WRN": ["WRN", "WARN", "WARNING", "NOTICE", "NOTE"],
+        "INF": ["INF", "INFO", "PREF", "OPTIM"],
+        "HIT": ["HIT", "HINT", "DBG", "TODO"]
+    },
+    "todo-tree.highlights.customHighlight": {
+        "ERR": { "background": "#ec7a79" },
+        "WRN": { "background": "#deb974" },
+        "INF": { "background": "#6cb6eb" },
+        "HIT": { "background": "#a0c980" }
+    },
 
     // ==================== Ext: Rust Analyzer  ====================
     "rust-analyzer.completion.fullFunctionSignatures.enable": true,
