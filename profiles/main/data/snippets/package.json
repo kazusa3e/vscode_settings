@@ -12,6 +12,10 @@
             {
                 "language": "c",
                 "path": "./c.json"
+            },
+            {
+                "language": "make",
+                "path": "./makefile.json"
             }
         ]
     }
