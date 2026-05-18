@@ -55,6 +55,7 @@
     "diffEditor.experimental.showMoves": true,
 
     // ==================== Features ====================
+    "update.mode": "manual",
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
