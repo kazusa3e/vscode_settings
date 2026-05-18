@@ -16,6 +16,10 @@
             {
                 "language": "make",
                 "path": "./makefile.json"
+            },
+            {
+                "language": "python",
+                "path": "./python.json"
             }
         ]
     }
