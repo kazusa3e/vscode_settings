@@ -260,6 +260,8 @@
     "go.inlayHints.rangeVariableTypes": true,
     "gopls": {
         "ui.semanticTokens": true
-    }
+    },
 
+    // ==================== Ext: Claude Code ====================
+    "claudeCode.claudeProcessWrapper": "cc"
 }
