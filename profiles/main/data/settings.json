@@ -2,7 +2,7 @@
     "$schema": "vscode://schemas/settings/user",
     // ==================== Appearances ====================
     "editor.cursorBlinking": "solid",
-    "workbench.colorTheme": "oxocarbon",
+    "workbench.colorTheme": "Edge Dark (Aura)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 16,
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
@@ -42,6 +42,13 @@
         }
     },
     "workbench.colorCustomizations": {
+
+        "editor.background": "#262829",
+        "sideBar.background": "#262829",
+        "panel.background": "#262829",
+        "titleBar.activeBackground": "#262829",
+        "editorGroupHeader.noTabsBackground": "#262829",
+
         "editor.wordHighlightBackground": "#8c00ff60",
         "editor.wordHighlightStrongBackground": "#8c00ff60"
     },
