@@ -46,3 +46,5 @@ enabled:
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: wenbopan.vscode-terminal-osc-notifier
     uuid: 593d3250-5ce6-4574-9f78-f98892e4cc96
+  - id: NyoomEngineering.oxocarbon-vscode
+    uuid: 89c293ce-bd9e-4175-ade0-fe7b137468d6

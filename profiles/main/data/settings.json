@@ -2,7 +2,7 @@
     "$schema": "vscode://schemas/settings/user",
     // ==================== Appearances ====================
     "editor.cursorBlinking": "solid",
-    "workbench.colorTheme": "Edge Dark",
+    "workbench.colorTheme": "oxocarbon",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 16,
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
