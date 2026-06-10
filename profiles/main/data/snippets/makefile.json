@@ -7,5 +7,12 @@
             "	@echo \"Usage: make <target>\""
         ],
         "description": "Default target — prints usage hint when make is called without arguments"
+    },
+    "implicit": {
+        "prefix": "implicit",
+        "body": [
+            "$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $^ $(LDLIBS) -o $@"
+        ],
+        "description": "implicit build rules"
     }
 }
