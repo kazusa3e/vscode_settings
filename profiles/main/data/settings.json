@@ -79,7 +79,7 @@
     "vim.cursorStylePerMode.insert": "block",
     "vim.showMarksInGutter": true,
     "vim.showmodename": false,
-    "vim.smartRelativeLine": true,
+    "vim.smartRelativeLine": false,
     "vim.statusBarColorControl": false,
 
     "vim.leader": "<space>",
