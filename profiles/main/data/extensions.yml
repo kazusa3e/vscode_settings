@@ -42,9 +42,9 @@ enabled:
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: wenbopan.vscode-terminal-osc-notifier
     uuid: 593d3250-5ce6-4574-9f78-f98892e4cc96
-  - id: xaver.theme-ysgrifennwr
-    uuid: 3e7b2244-1c35-49a7-abdd-02e2f802c64d
   - id: mvllow.rose-pine
     uuid: 6ef63bba-e6b8-4209-b562-9a927f36ae8f
   - id: halistahasahin.c-call-hierarchy-references
     uuid: 7b63bbcc-f48b-4b58-bcc0-caf4597092b5
+  - id: PKief.material-icon-theme
+    uuid: 5db78037-f674-459f-a236-db622c427c5b
