@@ -130,8 +130,8 @@
         { "before": [ "g", "R" ], "commands": [ "editor.action.rename" ] , "slient": true },
         { "before": [ "g", "." ], "commands": [ "editor.action.quickFix" ] , "slient": true },
 
-        { "before": [ "g", "q" ], "commands": [ "references-view.findReferences" ] , "slient": true },
-        { "before": [ "g", "w" ], "commands": [ "references-view.showCallHierarchy" ] , "slient": true },
+        { "before": [ "g", "q" ], "commands": [ "cCallHierarchyReferences.findReferences" ] , "slient": true },
+        { "before": [ "g", "w" ], "commands": [ "cCallHierarchyReferences.showHierarchy" ] , "slient": true },
 
         // extensions
         { "before": [ "<leader>", "m" ], "commands": [ "bookmarks.toggle" ] , "slient": true },

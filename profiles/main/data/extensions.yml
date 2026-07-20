@@ -46,3 +46,5 @@ enabled:
     uuid: 3e7b2244-1c35-49a7-abdd-02e2f802c64d
   - id: mvllow.rose-pine
     uuid: 6ef63bba-e6b8-4209-b562-9a927f36ae8f
+  - id: halistahasahin.c-call-hierarchy-references
+    uuid: 7b63bbcc-f48b-4b58-bcc0-caf4597092b5
