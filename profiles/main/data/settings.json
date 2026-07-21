@@ -2,7 +2,7 @@
     "$schema": "vscode://schemas/settings/user",
     // ==================== Appearances ====================
     "editor.cursorBlinking": "solid",
-    "workbench.colorTheme": "Rosé Pine",
+    "workbench.colorTheme": "Edge Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 16,
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
@@ -14,6 +14,7 @@
     // "debug.console.fontSize": 12,
     // "chat.fontSize": 12,
     // "chat.editor.fontSize": 12,
+    // "markdown.preview.fontSize": 12
     // #endif
     "editor.tokenColorCustomizations": {
         "textMateRules": [
