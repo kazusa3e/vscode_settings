@@ -94,8 +94,8 @@
     "vim.easymotion": true,
 
     "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": [ "j" ], "after": [ "g", "j" ] , "silent": true },
-        { "before": [ "k" ], "after": [ "g", "k" ] , "silent": true },
+        // { "before": [ "j" ], "after": [ "g", "j" ] , "silent": true },
+        // { "before": [ "k" ], "after": [ "g", "k" ] , "silent": true },
         { "before": [ "o" ], "after": [ "o", "<esc>" ] , "silent": true },
         { "before": [ "X" ], "commands": [ ":bd" ], "silent": true },
         { "before": [ "<leader>" ,"x" ], "commands": [ "workbench.action.closeEditorsInGroup" ], "silent": true },
@@ -103,6 +103,10 @@
         { "before": [ "<leader>", "a" ], "after": [ "`", "." ] , "silent": true },
         { "before": [ "<leader>", "s" ], "commands": [ ":ls" ] , "silent": true },
         { "before": [ "<leader>", "r" ], "commands": [ "workbench.action.tasks.runTask" ] , "silent": true },
+
+        { "before": [ "[", "b" ], "commands": [ ":bprevious" ] , "silent": true },
+        { "before": [ "]", "b" ], "commands": [ ":bnext" ] , "silent": true },
+        { "before": [ "Y" ], "after": [ "\"", "+", "y" ] , "silent": true },
 
         { "before": [ "<c-h>" ], "commands": [ "workbench.action.focusLeftGroup" ] , "silent": true },
         { "before": [ "<c-l>" ], "commands": [ "workbench.action.focusRightGroup" ] , "silent": true },
@@ -122,17 +126,17 @@
         { "before": [ "]", "g" ], "commands": [ "workbench.action.editor.nextChange" ] , "silent": true },
         { "before": [ "[", "g" ], "commands": [ "workbench.action.editor.previousChange" ] , "silent": true },
 
-        // lsp special
+        // lsp special (gr family mirrors nvim builtin defaults: grr/grn/gra/gri/grt/grh)
         { "before": [ "g", "D" ], "commands": [ "editor.action.revealDefinitionAside" ] , "silent": true },
-        { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "silent": true },
+        { "before": [ "<leader>", "g", "q" ], "commands": [ "editor.action.format" ] , "silent": true },
         { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "silent": true },
         { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "silent": true },
-        { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] , "silent": true },
-        { "before": [ "g", "R" ], "commands": [ "editor.action.rename" ] , "silent": true },
-        { "before": [ "g", "." ], "commands": [ "editor.action.quickFix" ] , "silent": true },
-
-        { "before": [ "g", "q" ], "commands": [ "cCallHierarchyReferences.findReferences" ] , "silent": true },
-        { "before": [ "g", "w" ], "commands": [ "cCallHierarchyReferences.showHierarchy" ] , "silent": true },
+        { "before": [ "g", "r", "n" ], "commands": [ "editor.action.rename" ] , "silent": true },
+        { "before": [ "g", "r", "a" ], "commands": [ "editor.action.codeAction" ] , "silent": true },
+        { "before": [ "g", "r", "i" ], "commands": [ "editor.action.goToImplementation" ] , "silent": true },
+        { "before": [ "g", "r", "t" ], "commands": [ "editor.action.goToTypeDefinition" ] , "silent": true },
+        { "before": [ "g", "r", "r" ], "commands": [ "cCallHierarchyReferences.findReferences" ] , "silent": true },
+        { "before": [ "g", "r", "h" ], "commands": [ "cCallHierarchyReferences.showHierarchy" ] , "silent": true },
 
         // extensions
         { "before": [ "<leader>", "m" ], "commands": [ "bookmarks.toggle" ] , "silent": true },
@@ -150,7 +154,9 @@
 
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": [ "q" ], "commands": [ "editor.action.commentLine" ] , "silent": true },
-        { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "silent": true }
+        { "before": [ "<leader>", "g", "q" ], "commands": [ "editor.action.formatSelection" ] , "silent": true },
+        { "before": [ "g", "r", "a" ], "commands": [ "editor.action.codeAction" ] , "silent": true }
+        // { "before": [ "Y" ], "after": [ "\"", "+", "y" ] , "silent": true }
     ],
 
     "vim.visualModeKeyBindings": [
