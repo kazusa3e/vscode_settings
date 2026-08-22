@@ -4,7 +4,7 @@
         "body": [
             ".PHONY: none",
             "none:",
-            "	@echo \"Usage: make <target>\""
+            "\t@echo \"Usage: make <target>\""
         ],
         "description": "Default target — prints usage hint when make is called without arguments"
     },
