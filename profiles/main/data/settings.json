@@ -94,67 +94,67 @@
     "vim.easymotion": true,
 
     "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": [ "j" ], "after": [ "g", "j" ] , "slient": true },
-        { "before": [ "k" ], "after": [ "g", "k" ] , "slient": true },
-        { "before": [ "o" ], "after": [ "o", "<esc>" ] , "slient": true },
-        { "before": [ "X" ], "commands": [ ":bd" ], "slient": true },
-        { "before": [ "<leader>" ,"x" ], "commands": [ "workbench.action.closeEditorsInGroup" ], "slient": true },
-        { "before": [ "<c-p>" ], "commands": [ "workbench.action.quickOpen" ] , "slient": true },
-        { "before": [ "<leader>", "a" ], "after": [ "`", "." ] , "slient": true },
-        { "before": [ "<leader>", "s" ], "commands": [ ":ls" ] , "slient": true },
-        { "before": [ "<leader>", "r" ], "commands": [ "workbench.action.tasks.runTask" ] , "slient": true },
+        { "before": [ "j" ], "after": [ "g", "j" ] , "silent": true },
+        { "before": [ "k" ], "after": [ "g", "k" ] , "silent": true },
+        { "before": [ "o" ], "after": [ "o", "<esc>" ] , "silent": true },
+        { "before": [ "X" ], "commands": [ ":bd" ], "silent": true },
+        { "before": [ "<leader>" ,"x" ], "commands": [ "workbench.action.closeEditorsInGroup" ], "silent": true },
+        { "before": [ "<c-p>" ], "commands": [ "workbench.action.quickOpen" ] , "silent": true },
+        { "before": [ "<leader>", "a" ], "after": [ "`", "." ] , "silent": true },
+        { "before": [ "<leader>", "s" ], "commands": [ ":ls" ] , "silent": true },
+        { "before": [ "<leader>", "r" ], "commands": [ "workbench.action.tasks.runTask" ] , "silent": true },
 
-        { "before": [ "<c-h>" ], "commands": [ "workbench.action.focusLeftGroup" ] , "slient": true },
-        { "before": [ "<c-l>" ], "commands": [ "workbench.action.focusRightGroup" ] , "slient": true },
-        { "before": [ "<c-j>" ], "commands": [ "workbench.action.focusBelowGroup" ] , "slient": true },
-        { "before": [ "<c-k>" ], "commands": [ "workbench.action.focusAboveGroup" ] , "slient": true },
-        { "before": [ "<leader>", "|" ], "commands": [ "workbench.action.splitEditorRight" ] , "slient": true },
-        { "before": [ "<leader>", "\\" ], "commands": [ "workbench.action.splitEditorDown" ] , "slient": true },
-        { "before": [ "<leader>", "z" ], "commands": [ "workbench.action.toggleMaximizeEditorGroup" ] , "slient": true },
+        { "before": [ "<c-h>" ], "commands": [ "workbench.action.focusLeftGroup" ] , "silent": true },
+        { "before": [ "<c-l>" ], "commands": [ "workbench.action.focusRightGroup" ] , "silent": true },
+        { "before": [ "<c-j>" ], "commands": [ "workbench.action.focusBelowGroup" ] , "silent": true },
+        { "before": [ "<c-k>" ], "commands": [ "workbench.action.focusAboveGroup" ] , "silent": true },
+        { "before": [ "<leader>", "|" ], "commands": [ "workbench.action.splitEditorRight" ] , "silent": true },
+        { "before": [ "<leader>", "\\" ], "commands": [ "workbench.action.splitEditorDown" ] , "silent": true },
+        { "before": [ "<leader>", "z" ], "commands": [ "workbench.action.toggleMaximizeEditorGroup" ] , "silent": true },
 
-        { "before": [ "q", "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
-        { "before": [ "]", "d" ], "commands": [ "editor.action.marker.next" ] , "slient": true },
-        { "before": [ "[", "d" ], "commands": [ "editor.action.marker.prev" ] , "slient": true },
+        { "before": [ "q", "q" ], "commands": [ "editor.action.commentLine" ] , "silent": true },
+        { "before": [ "]", "d" ], "commands": [ "editor.action.marker.next" ] , "silent": true },
+        { "before": [ "[", "d" ], "commands": [ "editor.action.marker.prev" ] , "silent": true },
 
         // git special
-        { "before": [ "<leader>", "g", "r" ], "commands": [ "git.revertSelectedRanges" ] , "slient": true },
-        { "before": [ "<leader>", "g", "d" ], "commands": [ "editor.action.dirtydiff.next" ] , "slient": true },
-        { "before": [ "]", "g" ], "commands": [ "workbench.action.editor.nextChange" ] , "slient": true },
-        { "before": [ "[", "g" ], "commands": [ "workbench.action.editor.previousChange" ] , "slient": true },
+        { "before": [ "<leader>", "g", "r" ], "commands": [ "git.revertSelectedRanges" ] , "silent": true },
+        { "before": [ "<leader>", "g", "d" ], "commands": [ "editor.action.dirtydiff.next" ] , "silent": true },
+        { "before": [ "]", "g" ], "commands": [ "workbench.action.editor.nextChange" ] , "silent": true },
+        { "before": [ "[", "g" ], "commands": [ "workbench.action.editor.previousChange" ] , "silent": true },
 
         // lsp special
-        { "before": [ "g", "D" ], "commands": [ "editor.action.revealDefinitionAside" ] , "slient": true },
-        { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "slient": true },
-        { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "slient": true },
-        { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "slient": true },
-        { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] , "slient": true },
-        { "before": [ "g", "R" ], "commands": [ "editor.action.rename" ] , "slient": true },
-        { "before": [ "g", "." ], "commands": [ "editor.action.quickFix" ] , "slient": true },
+        { "before": [ "g", "D" ], "commands": [ "editor.action.revealDefinitionAside" ] , "silent": true },
+        { "before": [ "g", "f" ], "commands": [ "editor.action.format" ] , "silent": true },
+        { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "silent": true },
+        { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "silent": true },
+        { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] , "silent": true },
+        { "before": [ "g", "R" ], "commands": [ "editor.action.rename" ] , "silent": true },
+        { "before": [ "g", "." ], "commands": [ "editor.action.quickFix" ] , "silent": true },
 
-        { "before": [ "g", "q" ], "commands": [ "cCallHierarchyReferences.findReferences" ] , "slient": true },
-        { "before": [ "g", "w" ], "commands": [ "cCallHierarchyReferences.showHierarchy" ] , "slient": true },
+        { "before": [ "g", "q" ], "commands": [ "cCallHierarchyReferences.findReferences" ] , "silent": true },
+        { "before": [ "g", "w" ], "commands": [ "cCallHierarchyReferences.showHierarchy" ] , "silent": true },
 
         // extensions
-        { "before": [ "<leader>", "m" ], "commands": [ "bookmarks.toggle" ] , "slient": true },
-        { "before": [ "]", "t" ], "commands": [ "todo-tree.goToNext" ] , "slient": true },
-        { "before": [ "[", "t" ], "commands": [ "todo-tree.goToPrevious" ] , "slient": true },
-        { "before": [ "]", "q" ], "commands": [ "bookmarks.jumpToPrevious" ] , "slient": true },
-        { "before": [ "[", "q" ], "commands": [ "bookmarks.jumpToNext" ] , "slient": true }
+        { "before": [ "<leader>", "m" ], "commands": [ "bookmarks.toggle" ] , "silent": true },
+        { "before": [ "]", "t" ], "commands": [ "todo-tree.goToNext" ] , "silent": true },
+        { "before": [ "[", "t" ], "commands": [ "todo-tree.goToPrevious" ] , "silent": true },
+        { "before": [ "]", "q" ], "commands": [ "bookmarks.jumpToNext" ] , "silent": true },
+        { "before": [ "[", "q" ], "commands": [ "bookmarks.jumpToPrevious" ] , "silent": true }
 
 
     ],
     "vim.normalModeKeyBindings": [
-        { "before": [ "s" ], "after": [ "y", "s" ] , "slient": true },
-        { "before": [ "f" ], "after": [ "<leader>", "<leader>", "s" ] , "slient": true }
+        { "before": [ "s" ], "after": [ "y", "s" ] , "silent": true },
+        { "before": [ "f" ], "after": [ "<leader>", "<leader>", "s" ] , "silent": true }
     ],
 
     "vim.visualModeKeyBindingsNonRecursive": [
-        { "before": [ "q" ], "commands": [ "editor.action.commentLine" ] , "slient": true },
-        { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "slient": true }
+        { "before": [ "q" ], "commands": [ "editor.action.commentLine" ] , "silent": true },
+        { "before": [ "g", "f" ], "commands": [ "editor.action.formatSelection" ] , "silent": true }
     ],
 
     "vim.visualModeKeyBindings": [
-        { "before": [ "s" ], "after": [ "S" ] , "slient": true },
+        { "before": [ "s" ], "after": [ "S" ] , "silent": true },
     ],
 
     "vim.handleKeys": {},
