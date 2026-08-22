@@ -1,6 +1,7 @@
 {
     "$schema": "vscode://schemas/settings/user",
     // ==================== Appearances ====================
+    "workbench.experimental.modernUI": true,
     "editor.cursorBlinking": "solid",
     "workbench.colorTheme": "Edge Dark",
     "workbench.iconTheme": "material-icon-theme",
@@ -42,6 +43,12 @@
             }
         }
     },
+
+    // It's MyGO!!!!!
+    "workbench.colorCustomizations": {
+        "editor.wordHighlightBackground": "#3388BB60",
+        "editor.wordHighlightStrongBackground": "#3388BB60"
+    },
     "workbench.editor.showTabs": "single",
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
@@ -58,6 +65,12 @@
     "editor.tabSize": 4,
     "files.insertFinalNewline": true,
     "workbench.editor.enablePreview": false,
+
+    "editor.quickSuggestions": {
+        "other": on,
+        "comments": on,
+        "strings": on
+    },
 
     "terminal.integrated.suggest.enabled": false,
     "terminal.integrated.initialHint": false,
