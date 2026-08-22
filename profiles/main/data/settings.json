@@ -46,8 +46,8 @@
 
     // It's MyGO!!!!!
     "workbench.colorCustomizations": {
-        "editor.wordHighlightBackground": "#3388BB60",
-        "editor.wordHighlightStrongBackground": "#3388BB60"
+        "editor.wordHighlightBackground": "#3388BBa0",
+        "editor.wordHighlightStrongBackground": "#3388BBa0"
     },
     "workbench.editor.showTabs": "single",
     "chat.commandCenter.enabled": false,
