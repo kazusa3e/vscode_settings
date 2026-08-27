@@ -15,7 +15,7 @@
     // "debug.console.fontSize": 12,
     // "chat.fontSize": 12,
     // "chat.editor.fontSize": 12,
-    // "markdown.preview.fontSize": 12
+    // "markdown.preview.fontSize": 12,
     // #endif
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -67,9 +67,9 @@
     "workbench.editor.enablePreview": false,
 
     "editor.quickSuggestions": {
-        "other": on,
-        "comments": on,
-        "strings": on
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
     },
 
     "terminal.integrated.suggest.enabled": false,
