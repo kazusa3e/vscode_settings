@@ -265,5 +265,11 @@
     "go.inlayHints.rangeVariableTypes": true,
     "gopls": {
         "ui.semanticTokens": true
-    }
+    },
+
+    // ==================== Ext: Even Better TOML  ====================
+    "evenBetterToml.taplo.bundled": true,
+    "evenBetterToml.taplo.configFile.enabled": true,
+    "evenBetterToml.schema.enabled": true
+
 }
