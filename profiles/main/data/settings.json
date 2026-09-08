@@ -80,6 +80,8 @@
     "debug.showVariableTypes": true,
     "debug.inlineValues": "auto",
 
+    "remote.SSH.useExecServer": false,
+
     // ==================== Ext: Sync Settings ====================
     "syncSettings.resources": [
         "extensions",
