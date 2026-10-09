@@ -86,6 +86,7 @@
     "debug.inlineValues": "auto",
 
     "remote.SSH.useExecServer": false,
+    "remote.autoForwardPorts": false,
 
     // ==================== Ext: Sync Settings ====================
     "syncSettings.resources": [
