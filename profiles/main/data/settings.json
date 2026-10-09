@@ -74,6 +74,9 @@
 
     "terminal.integrated.suggest.enabled": false,
     "terminal.integrated.initialHint": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpen"
+    ],
 
     "git.autofetch": true,
 
