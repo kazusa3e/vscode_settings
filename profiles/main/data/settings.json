@@ -6,6 +6,10 @@
     "workbench.colorTheme": "Edge Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 16,
+    "workbench.navigationControl.enabled": false,
+    "workbench.panel.showLabels": false,
+    "window.controlStyle": "hidden",
+    "editor.guides.bracketPairs": "active",
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
     "editor.fontLigatures": true,
     "editor.renderWhitespace": "trailing",
@@ -183,7 +187,7 @@
     ],
 
     "vim.visualModeKeyBindings": [
-        { "before": [ "s" ], "after": [ "S" ] , "silent": true },
+        { "before": [ "s" ], "after": [ "S" ] , "silent": true }
     ],
 
     "vim.handleKeys": {},
