@@ -8,6 +8,7 @@
     "workbench.tree.indent": 16,
     "editor.fontFamily": "'Maple Mono NF CN', 'Source Han Sans SC', 'Consolas'",
     "editor.fontLigatures": true,
+    "editor.renderWhitespace": "trailing",
     "terminal.integrated.fontLigatures.enabled": true,
     // #if(os="windows")
     // "editor.fontSize": 12,
@@ -64,6 +65,7 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "workbench.editor.enablePreview": false,
 
     "editor.quickSuggestions": {
@@ -161,8 +163,8 @@
 
         // extensions
         { "before": [ "<leader>", "m" ], "commands": [ "bookmarks.toggle" ] , "silent": true },
-        { "before": [ "]", "t" ], "commands": [ "todo-tree.goToNext" ] , "silent": true },
-        { "before": [ "[", "t" ], "commands": [ "todo-tree.goToPrevious" ] , "silent": true },
+        { "before": [ "]", "t" ], "commands": [ "better-todo-tree.goToNext" ] , "silent": true },
+        { "before": [ "[", "t" ], "commands": [ "better-todo-tree.goToPrevious" ] , "silent": true },
         { "before": [ "]", "q" ], "commands": [ "bookmarks.jumpToNext" ] , "silent": true },
         { "before": [ "[", "q" ], "commands": [ "bookmarks.jumpToPrevious" ] , "silent": true }
 
@@ -216,31 +218,31 @@
     // ==================== Ext: Yaml  ====================
     "redhat.telemetry.enabled": false,
 
-    // ==================== Ext: Todo Tree  ====================
-    "todo-tree.general.showActivityBarBadge": true,
-    "todo-tree.general.statusBar": "tags",
-    "todo-tree.tree.expanded": true,
-    "todo-tree.tree.groupedBySubTag": true,
-    "todo-tree.tree.groupedByTag": true,
-    "todo-tree.tree.flat": true,
-    "todo-tree.tree.hideIconsWhenGroupedByTag": true,
-    "todo-tree.tree.hideTreeWhenEmpty": true,
-    "todo-tree.tree.showCountsInTree": true,
-    "todo-tree.tree.buttons.groupBySubTag": true,
-    "todo-tree.regex.regexCaseSensitive": false,
-    "todo-tree.general.tags": [
+    // ==================== Ext: Better Todo Tree  ====================
+    "better-todo-tree.general.showActivityBarBadge": true,
+    "better-todo-tree.general.statusBar": "tags",
+    "better-todo-tree.tree.expanded": true,
+    "better-todo-tree.tree.groupedBySubTag": true,
+    "better-todo-tree.tree.groupedByTag": true,
+    "better-todo-tree.tree.flat": true,
+    "better-todo-tree.tree.hideIconsWhenGroupedByTag": true,
+    "better-todo-tree.tree.hideTreeWhenEmpty": true,
+    "better-todo-tree.tree.showCountsInTree": true,
+    "better-todo-tree.tree.buttons.groupBySubTag": true,
+    "better-todo-tree.regex.regexCaseSensitive": false,
+    "better-todo-tree.general.tags": [
         "ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME",
         "WRN", "WARN", "WARNING", "NOTICE", "NOTE",
         "INF", "INFO", "PREF", "OPTIM",
         "HIT", "HINT", "DBG", "TODO"
     ],
-    "todo-tree.general.tagGroups": {
+    "better-todo-tree.general.tagGroups": {
         "ERR": ["ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME"],
         "WRN": ["WRN", "WARN", "WARNING", "NOTICE", "NOTE"],
         "INF": ["INF", "INFO", "PREF", "OPTIM"],
         "HIT": ["HIT", "HINT", "DBG", "TODO"]
     },
-    "todo-tree.highlights.customHighlight": {
+    "better-todo-tree.highlights.customHighlight": {
         "ERR": { "background": "#ec7a79" },
         "WRN": { "background": "#deb974" },
         "INF": { "background": "#6cb6eb" },
@@ -251,9 +253,6 @@
     "rust-analyzer.completion.fullFunctionSignatures.enable": true,
     "rust-analyzer.showDependenciesExplorer": false,
     "rust-analyzer.testExplorer": false,
-
-    // ==================== Ext: Trailing Spaces  ====================
-    "trailing-spaces.trimOnSave": true,
 
     // ==================== Ext: Cmake Tools  ====================
     "cmake.configureOnOpen": false,
