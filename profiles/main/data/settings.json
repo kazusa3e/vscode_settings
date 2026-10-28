@@ -218,6 +218,20 @@
     // ==================== Ext: Yaml  ====================
     "redhat.telemetry.enabled": false,
 
+    // ==================== Ext: Nix IDE  ====================
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nixd",
+    "nix.serverSettings": {
+        "nixd": {
+            "formatting": {
+                "command": [ "nixfmt" ]
+            }
+        }
+    },
+    "[nix]": {
+        "editor.defaultFormatter": "jnoortheen.nix-ide"
+    },
+
     // ==================== Ext: Better Todo Tree  ====================
     "better-todo-tree.general.showActivityBarBadge": true,
     "better-todo-tree.general.statusBar": "tags",

@@ -26,6 +26,8 @@ enabled:
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: jnoortheen.nix-ide
+    uuid: 0ffebccd-4265-4f2d-a855-db1adcf278c7
   - id: FanaticPythoner.better-todo-tree
     uuid: 19c58f78-5ab3-45d0-8a95-51bc14a8cc42
   - id: harikrishnan94.cxx-compiler-explorer
