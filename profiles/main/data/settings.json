@@ -247,7 +247,21 @@
     "better-todo-tree.tree.hideTreeWhenEmpty": true,
     "better-todo-tree.tree.showCountsInTree": true,
     "better-todo-tree.tree.buttons.groupBySubTag": true,
-    "better-todo-tree.regex.regexCaseSensitive": false,
+    "better-todo-tree.regex.regexCaseSensitive": true,
+    "better-todo-tree.regex.regex": "(^|//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*(?=\\[x\\]|\\[ \\]|[A-Za-z0-9_])($TAGS)(?=:)",
+    "better-todo-tree.filtering.useBuiltInExcludes": "file and search excludes",
+    "better-todo-tree.filtering.excludeGlobs": [
+        "**/.git/**",
+        "**/node_modules/**",
+        "**/build/**",
+        "**/dist/**",
+        "**/out/**",
+        "**/target/**",
+        "**/vendor/**",
+        "**/.cache/**",
+        "**/__pycache__/**",
+        "**/.local/**"
+    ],
     "better-todo-tree.general.tags": [
         "ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME",
         "WRN", "WARN", "WARNING", "NOTICE", "NOTE",
