@@ -28,6 +28,8 @@ enabled:
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: jnoortheen.nix-ide
     uuid: 0ffebccd-4265-4f2d-a855-db1adcf278c7
+  - id: mkhl.direnv
+    uuid: e365e970-aeef-4dcd-8e4a-17306a27ab62
   - id: FanaticPythoner.better-todo-tree
     uuid: 19c58f78-5ab3-45d0-8a95-51bc14a8cc42
   - id: harikrishnan94.cxx-compiler-explorer
@@ -38,8 +40,6 @@ enabled:
     uuid: 6efd3abb-3c6e-49c8-b8ce-6df58982255b
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
-  - id: ms-azuretools.vscode-containers
-    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: halistahasahin.c-call-hierarchy-references
     uuid: 7b63bbcc-f48b-4b58-bcc0-caf4597092b5
   - id: PKief.material-icon-theme
