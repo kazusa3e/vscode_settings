@@ -265,13 +265,13 @@
     "better-todo-tree.general.tags": [
         "ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME",
         "WRN", "WARN", "WARNING", "NOTICE", "NOTE",
-        "INF", "INFO", "PREF", "OPTIM",
+        "INF", "INFO", "PREF", "PERF", "OPTIM",
         "HIT", "HINT", "DBG", "TODO"
     ],
     "better-todo-tree.general.tagGroups": {
         "ERR": ["ERR", "ERROR", "BUG", "ISSUE", "FIX", "FIXME"],
         "WRN": ["WRN", "WARN", "WARNING", "NOTICE", "NOTE"],
-        "INF": ["INF", "INFO", "PREF", "OPTIM"],
+        "INF": ["INF", "INFO", "PREF", "PERF", "OPTIM"],
         "HIT": ["HIT", "HINT", "DBG", "TODO"]
     },
     "better-todo-tree.highlights.customHighlight": {
