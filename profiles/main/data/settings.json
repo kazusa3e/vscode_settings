@@ -164,6 +164,7 @@
         { "before": [ "<leader>", "g", "q" ], "commands": [ "editor.action.format" ] , "silent": true },
         { "before": [ "g", "h" ], "commands": [ "editor.action.showHover" ] , "silent": true },
         { "before": [ "g", "o" ], "commands": [ "workbench.action.gotoSymbol" ] , "silent": true },
+        { "before": [ "g", "O" ], "commands": [ "workbench.action.showAllSymbols" ] , "silent": true },
         { "before": [ "g", "r", "n" ], "commands": [ "editor.action.rename" ] , "silent": true },
         { "before": [ "g", "r", "a" ], "commands": [ "editor.action.codeAction" ] , "silent": true },
         { "before": [ "g", "r", "i" ], "commands": [ "editor.action.goToImplementation" ] , "silent": true },
