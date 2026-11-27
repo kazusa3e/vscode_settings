@@ -70,6 +70,12 @@
     "editor.tabSize": 4,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.direnv": true
+    },
+    "files.watcherExclude": {
+        "**/.direnv/**": true
+    },
     "workbench.editor.enablePreview": false,
 
     "editor.quickSuggestions": {
